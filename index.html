@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Desafio 1 - Landing Page</title>
 </head>
 <body>
@@ -45,6 +46,17 @@
       </div>
 
       <img id="history-image" src="images/living-room.svg" alt="Sala de estar planejada">
+    </div>
+
+    <div id="form-section">
+      <h1 id="form-title">Conheça mais sobre nossos serviços:</h1>
+
+      <form id="contact-form" action="https://api.sheetmonkey.io/form/jMSRqLCVmTsCtHUuPjkLFD" method="post">
+        <input class="form-input" type="text" name="name" placeholder="Nome" autocomplete="off">
+        <input class="form-input" type="email" name="email" placeholder="E-mail" autocomplete="off">
+        <input type="hidden" name="created" value="x-sheetmonkey-current-date-time" />
+        <button id="form-button" type="submit">Fale Conosco</button>
+      </form>
     </div>
   <script src="index.js"></script>
 </body>
