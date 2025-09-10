@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0;
+}
+
+#top-menu-section {
+  background-color: #303030;
+  color: white;
+}
+
+#top-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 206px;
+  padding-left: 62px;
+  padding-bottom: 144px;
+}
+
+#top-menu-title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2.5%
+}
+
+#top-menu-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
